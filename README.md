@@ -3,4 +3,4 @@ This repositrory contains all the required files to solve nonlinear coupled part
 
 Three Benchmark problems named **1-Blasius flow** , **2- Flakner-Skan wedge flow** and **3- Natural convection on a vertical flat plate** were considered and solved by PINN. The controlling parameters, such as **a) _Learning rate_**, **b) _Width and Deoth of the network_** , **c) _Prandtl number_** , **d) _the unlimited boundary value_** and **e) _Overfitting test_**, were investigated in detail aimed to obtain the reasonable outcomes.
 
-We used **Python 3.6** and **TensorFlow 1.14** for coding and employing the tensorflow package. Also **ADAM optimization** was used to optimize the Loss function in terms of weights and biases. 
+We used **Python 3.6** and **TensorFlow 1.14** for coding and employing the tensorflow package. Also **ADAM optimization** was used to optimize the Loss function in terms of weights and biases. **scikit-learn** was used for testing the overfitting of the models through two techniques **1- K-fold cross-validation** and **2- 20-80% hold-out method**. 
